@@ -669,11 +669,15 @@ DATASETS = {
         'zh-en': ['zh-en/IWSLT17.TED.dev2010.zh-en.zh.xml', 'en-zh/IWSLT17.TED.dev2010.en-zh.en.xml'],
     },
     'iwslt15/tst2013': {
-        'data': ['https://wit3.fbk.eu/archive/2015-01//texts/zh/en/zh-en.tgz'],
-        "md5": ["51a415a5c6fd9a411e7cb8a055938173"],
+        'data': ['https://wit3.fbk.eu/archive/2015-01//texts/zh/en/zh-en.tgz',
+                'https://wit3.fbk.eu/archive/2015-01//texts/vi/en/vi-en.tgz'],
+        "md5": ["51a415a5c6fd9a411e7cb8a055938173",
+                "95d66ccb1ee3c2d78cfa5a1ce79a3ed3"],
         'description': 'Development data for IWSLT 2015.',
         'en-zh': ['zh-en/IWSLT15.TED.tst2013.zh-en.en.xml', 'zh-en/IWSLT15.TED.tst2013.zh-en.zh.xml'],
         'zh-en': ['zh-en/IWSLT15.TED.tst2013.zh-en.zh.xml', 'zh-en/IWSLT15.TED.tst2013.zh-en.en.xml'],
+        'en-vi': ['vi-en/IWSLT15.TED.tst2013.vi-en.en.xml', 'vi-en/IWSLT15.TED.tst2013.vi-en.vi.xml'],
+        'vi-en': ['vi-en/IWSLT15.TED.tst2013.vi-en.vi.xml', 'vi-en/IWSLT15.TED.tst2013.vi-en.en.xml'],
     },
     'iwslt13/tst2010': {
         'data': ['https://wit3.fbk.eu/archive/2013-01//texts/tr/en/tr-en.tgz',
